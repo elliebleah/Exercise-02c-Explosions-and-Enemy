@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: 5991942798421799387}
   - component: {fileID: 2022622711166812746}
   - component: {fileID: 1374334340907118056}
-  - component: {fileID: 1876546071128046534}
+  - component: {fileID: 2327426748202946684}
   m_Layer: 0
-  m_Name: Asteroid
+  m_Name: Asteroid 1
   m_TagString: Asteroid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -228,8 +228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: bullet
-  splitAsteroidPrefab: {fileID: 1990385776071640484, guid: fca820f6e5016a9439c732396f66ff49, type: 3}
---- !u!114 &1876546071128046534
+  splitAsteroidPrefab: {fileID: 1990385776071640484}
+--- !u!114 &2327426748202946684
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

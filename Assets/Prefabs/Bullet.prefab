@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 6945899361930357908}
   - component: {fileID: 1559078638090653023}
   - component: {fileID: 1638382757087585824}
+  - component: {fileID: 4336600592073855182}
+  - component: {fileID: 1674282025806032402}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: bullet
@@ -29,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374454038053697185}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: -0.00000004371139}
   m_LocalPosition: {x: -1.772, y: -3.54, z: 0}
   m_LocalScale: {x: 0.090942316, y: 0.090942316, z: 0.090942316}
   m_ConstrainProportionsScale: 0
@@ -193,3 +195,29 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: f36f4612cc572e74e84c634436e44295, type: 2}
+--- !u!114 &4336600592073855182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374454038053697185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 036f6991318ee194a925124bea922962, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+--- !u!114 &1674282025806032402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374454038053697185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e260df3878335749990ba4337ef2888, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Asteroid

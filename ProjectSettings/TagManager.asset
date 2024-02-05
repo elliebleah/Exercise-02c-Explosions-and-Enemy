@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - bullet
+  - Garbage
+  - hurtsPlayer
+  - Asteroid
   layers:
   - Default
   - TransparentFX
